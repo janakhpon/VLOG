@@ -2,8 +2,6 @@
 A collection of mono repos for my personal blog posts.
 
 <br />
-<br />
-
 ### List of articles
 <br />
 
