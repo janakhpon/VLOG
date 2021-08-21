@@ -1,8 +1,8 @@
 ## VLOG
 A collection of mono repos for my personal blog posts.
-
 <br />
-### List of articles
+
+## List of articles
 <br />
 
 [Google Analytics with Next.js](https://janakhpon.gitlab.io/posts/nextjs-google-analytics)
