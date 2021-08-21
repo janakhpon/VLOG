@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  # - MONGO_URI=mongodb://testUser:testPassword@mongodb:27017/todos?authSource=admin
+  # - PG_URL=postgresql://postgres:postgrespassword@localhost:5432/postgres?schema=public
+  postgresql:
+    container_name: postgresql
+    image: postgres:latest
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: postgres
+    volumes:
+      - ./scripts/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    logging:
+      driver: none
