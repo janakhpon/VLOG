@@ -10,3 +10,5 @@ A collection of mono repos for my personal blog posts.
 [Nest with Swagger](https://janakhpon.gitlab.io/posts/nest-swagger)
 
 [Graphql with Nest.js](https://janakhpon.gitlab.io/posts/nest-graphql)
+
+[How to add SEO to Next.js](https://janakhpon.gitlab.io/posts/next-seo)
