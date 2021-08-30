@@ -12,3 +12,7 @@ A collection of mono repos for my personal blog posts.
 [Graphql with Nest.js](https://janakhpon.gitlab.io/posts/nest-graphql)
 
 [How to add SEO to Next.js](https://janakhpon.gitlab.io/posts/next-seo)
+
+[PWA with Next.js](https://janakhpon.gitlab.io/posts/next-pwa)
+
+[How to add SEO dynamically to Next.js](https://janakhpon.gitlab.io/posts/next-dynamic-seo)
