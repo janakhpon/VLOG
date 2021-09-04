@@ -1,0 +1,62 @@
+type Todo {
+    id: ID!
+    title: String
+    text: String
+    completed: Boolean
+}
+
+type SearchResponse {
+    data: [Todo]
+    count: Int
+}
+
+type Status {
+    message: String
+}
+
+type User {
+    userId: Int 
+    email: String
+}
+
+type RowCount {
+    count: Int
+}
+
+enum SortType {
+    ASC,
+    DESC
+}
+
+input SearchInput {
+    page: Int 
+    take: Int 
+    title: String
+    text: String
+}
+
+input CreateInput {
+    title: String
+    text: String
+    completed: Boolean
+}
+
+type Query {
+    list(page: Int, take: Int, sort: String, order: SortType): [Todo]
+    searchList(input: SearchInput): SearchResponse
+    todo(id: ID!): Todo!
+    me: User
+    count: RowCount
+}
+
+type Mutation {
+    create(input: CreateInput!): Todo
+    update(id: ID!, input: CreateInput!):Todo
+    delete(id: ID!): Status
+}
+
+type Subscription {
+    todoCreated: Todo
+    todoUpdated: Todo
+    todoDeleted: ID
+}
