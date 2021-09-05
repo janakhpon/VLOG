@@ -1,5 +1,6 @@
 ## VLOG
-A collection of mono repos for my personal blog posts.
+A collection of mono repos from my personal blog posts.
+
 <br />
 
 ## List of articles
@@ -18,3 +19,5 @@ A collection of mono repos for my personal blog posts.
 [How to add SEO dynamically to Next.js](https://janakhpon.gitlab.io/posts/next-dynamic-seo)
 
 [Graphql Subscriptions with Nest.js](https://janakhpon.gitlab.io/posts/nest-graphql-subscriptions)
+
+[Nestjs graphql-redis-subscriptions](https://janakhpon.gitlab.io/posts/nest-graphql-redis-subscriptions)
