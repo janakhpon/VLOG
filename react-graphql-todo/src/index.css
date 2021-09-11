@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+      @apply bg-gray-300;
+    }
+    input {
+      @apply flex-auto bg-gray-200 text-sm font-medium rounded p-2 focus:outline-none focus:ring focus:border-blue-100;
+    }
+    select {
+      @apply flex-auto w-full bg-gray-200 text-sm font-medium rounded ml-2 focus:outline-none focus:ring focus:border-blue-100;
+    }
+    option {
+      @apply bg-gray-200 rounded m-1 px-8 border-transparent focus:outline-none focus:ring focus:border-blue-100;
+    }
+    input[type='checkbox'] {
+      @apply h-3.5 w-3.5 bg-gray-200 text-blue-200 border rounded m-2;
+    }
+    button {
+      @apply text-sm font-medium;
+    }
+  }
