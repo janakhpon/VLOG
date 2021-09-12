@@ -28,3 +28,5 @@ A collection of mono repos from my personal blog posts.
 [Strapi Custom Endpoint](https://janakhpon.gitlab.io/posts/strapi-custom-endpoint)
 
 [React Graphql Todo](https://janakhpon.gitlab.io/posts/react-graphql-todo)
+
+[React Graphql Subscriptions](https://janakhpon.gitlab.io/posts/react-graphql-subscriptions)
