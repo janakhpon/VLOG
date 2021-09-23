@@ -30,3 +30,5 @@ A collection of mono repos from my personal blog posts.
 [React Graphql Todo](https://janakhpon.gitlab.io/posts/react-graphql-todo)
 
 [React Graphql Subscriptions](https://janakhpon.gitlab.io/posts/react-graphql-subscriptions)
+
+[React Query](https://janakhpon.gitlab.io/posts/react-query)
