@@ -1,4 +1,5 @@
 ## VLOG
+
 A collection of mono repos from my personal blog posts.
 
 <br />
@@ -32,3 +33,5 @@ A collection of mono repos from my personal blog posts.
 [React Graphql Subscriptions](https://janakhpon.gitlab.io/posts/react-graphql-subscriptions)
 
 [React Query](https://janakhpon.gitlab.io/posts/react-query)
+
+[Next Translate](https://janakhpon.gitlab.io/posts/next-translate)
