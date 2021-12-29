@@ -1,0 +1,1 @@
+/home/ubuntu/.nvm/versions/node/v14.17.2/bin/pm2 stop develop_web && /home/ubuntu/.nvm/versions/node/v14.17.2/bin/pm2 delete develop_web && /home/ubuntu/.nvm/versions/node/v14.17.2/bin/pm2 serve build 3000 --name develop_web

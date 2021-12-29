@@ -35,3 +35,11 @@ A collection of mono repos from my personal blog posts.
 [React Query](https://janakhpon.gitlab.io/posts/react-query)
 
 [Next Translate](https://janakhpon.gitlab.io/posts/next-translate)
+
+[Postgresql on AWS](https://janakhpon.gitlab.io/posts/setup-postgresql-aws-rds)
+
+[Passwordless ssh login](https://janakhpon.gitlab.io/posts/setup-passwordless-ssh)
+
+[Posgresql on VPS](https://janakhpon.gitlab.io/posts/setup-postgresql-vps)
+
+[Basic CICD on EC2](https://janakhpon.gitlab.io/posts/setup-basic-cicd-ec2)
