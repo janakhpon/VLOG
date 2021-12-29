@@ -1,0 +1,35 @@
+image: node:14
+
+stages:
+  - build
+  - deploy
+
+build_develop:
+  stage: build
+  artifacts:
+    paths:
+      - build/
+    expire_in: 1 week
+  cache:
+    paths:
+      - node_modules/
+  only:
+    - develop
+  before_script:
+    - npm install
+  script:
+    - npm run build
+
+deploy_develop:
+  stage: deploy
+  only:
+    - develop
+  before_script:
+    - eval $(ssh-agent -s)
+    - mkdir -p ~/.ssh
+    - touch ~/.ssh/config
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+    - ssh-add <(echo "$SSH_PRIVATE_KEY")
+  script:
+    - scp -P22 -r ./* "$INSTANCE_ADDR":/home/ubuntu/develop/web/
+    - ssh -o StrictHostKeyChecking=no "$INSTANCE_ADDR" "cd develop/web && pwd && bash scripts/install_and_reload.sh"
