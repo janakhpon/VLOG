@@ -44,4 +44,6 @@ A collection of mono repos from my personal blog posts.
 
 [Basic CICD on EC2](https://janakhpon.gitlab.io/posts/setup-basic-cicd-ec2)
 
-[window.matchMedia and window.innerWidth](https://janakhpon.gitlab.io/posts/matchMedia-innerWidth)
+[Custom Hooks for detecting window size in React](https://janakhpon.gitlab.io/posts/matchMedia-innerWidth)
+
+[Global state management using redux and redux-thunk](https://janakhpon.gitlab.io/posts/redux-demo)
