@@ -1,8 +1,8 @@
 ## VLOG
 
-A collection of mono repos from my personal blog posts.
+A collection of example repos from my personal blog posts.
 
-<br />
+<hr />
 
 ## List of articles
 
@@ -47,3 +47,5 @@ A collection of mono repos from my personal blog posts.
 [Custom Hooks for detecting window size in React](https://janakhpon.gitlab.io/posts/matchMedia-innerWidth)
 
 [Global state management using redux and redux-thunk](https://janakhpon.gitlab.io/posts/redux-demo)
+
+[Global state management using ReduxToolKit(rtk)](https://janakhpon.gitlab.io/posts/redux-demo)
