@@ -49,3 +49,5 @@ A collection of example repos from my personal blog posts.
 [Global state management using redux and redux-thunk](https://janakhpon.gitlab.io/posts/redux-demo)
 
 [Global state management using ReduxToolKit(rtk)](https://janakhpon.gitlab.io/posts/redux-demo)
+
+[Animation with Framer Motion](https://janakhpon.gitlab.io/posts/react-framermotion)
