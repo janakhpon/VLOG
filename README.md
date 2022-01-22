@@ -51,3 +51,5 @@ A collection of example repos from my personal blog posts.
 [Global state management using ReduxToolKit(rtk)](https://janakhpon.gitlab.io/posts/redux-demo)
 
 [Animation with Framer Motion](https://janakhpon.gitlab.io/posts/react-framermotion)
+
+[Testing React application with testing-library](https://janakhpon.gitlab.io/posts/react-testing)
