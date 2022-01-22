@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  overflow: auto;
+}
+
+body ::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar {
+  @apply w-1;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-500;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-700;
+}
