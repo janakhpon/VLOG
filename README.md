@@ -53,3 +53,5 @@ A collection of example repos from my personal blog posts.
 [Animation with Framer Motion](https://janakhpon.gitlab.io/posts/react-framermotion)
 
 [Testing React application with testing-library](https://janakhpon.gitlab.io/posts/react-testing)
+
+[Testing React application with Mock Service Worker (mswjs)](https://janakhpon.gitlab.io/posts/react-msw)
